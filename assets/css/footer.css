@@ -1,0 +1,24 @@
+.footer{
+    background-color: rgb(220, 219, 219);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.footer-menu{
+    display: flex;
+}
+.footer-menu a{
+    padding: 10px;
+}
+.footer-social{
+    display: flex;
+}
+.footer-social a{
+    padding: 3px;
+}
+@media screen and (min-width:768px)  {
+    .footer-menu{
+        display: flex;
+    }
+}
