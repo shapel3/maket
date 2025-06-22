@@ -13,7 +13,11 @@ ul {
   list-style: none;
   margin: 0;
 }
+h1,h2{
+  font-family: Roboto ,sans-serif;
+}
 .wrapper {
+  margin-bottom: 50px;
   background-image: linear-gradient(90deg, white 70px, yellow 70px);
 }
 

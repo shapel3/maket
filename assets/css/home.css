@@ -1,0 +1,74 @@
+main{
+    padding-left: 15px;
+    padding-bottom: ;
+}
+.title{
+    margin-top: 70px;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.mobile-unicorn{
+    margin-top: 70px;
+    display: block;
+    margin: 70px auto;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.more{
+    display: block;
+    width: 120px;
+    height: 120px;
+    padding: 36px 10px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.more img{
+    margin-top: 10px;
+}
+.text{
+    width: 50%;
+    font-weight: 600;
+}
+.flex{
+    display: flex;
+    margin-top: 50px;
+}
+.big-unicorn{
+    display: none;
+    margin-left: ;
+}
+
+.main-social{
+    display: none;
+}
+
+
+@media screen and (min-width: 768px)  {
+    .mobile-unicorn{
+        display: none;
+        margin-left: 100px;
+    }
+    .big-unicorn{
+        display: block;
+    }
+    .content{
+        flex-direction: row;
+    }
+    .title{
+        font-size: 72px;
+    }
+    .text{
+        margin-left: 30px;
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1200px)  {
+    
+}
