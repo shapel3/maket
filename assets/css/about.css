@@ -1,0 +1,56 @@
+.about-company {
+  display: flex;
+  flex-direction: column;
+}
+.about-article {
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.title {
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.achievs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.achive {
+  width: 30%;
+}
+.achive h3 {
+  font-size: 44px;
+  font-weight: 900;
+}
+.achive p {
+  color: #938700;
+}
+@media screen and (min-width: 768px) {
+  .about-company {
+    width: 70%;
+    margin: auto;
+  }
+  .title {
+    font-size: 72px;
+  }
+  .about-article{
+    font-size: 24px;
+  }
+  .achive{
+    width: 35% ;
+  }
+  .achive h3 {
+    font-size: 44px;
+    font-weight: 900;
+  }
+  .achive p {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-company{
+    width: 80%;
+    flex-direction: row;
+  }
+}

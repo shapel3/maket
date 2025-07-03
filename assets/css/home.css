@@ -1,6 +1,7 @@
 main{
+    position: relative;
     padding-left: 15px;
-    padding-bottom: 15px ;
+    padding-bottom: 175px ;
 }
 .title{
     margin-top: 70px;
@@ -9,12 +10,11 @@ main{
     text-transform: uppercase;
 }
 .mobile-unicorn{
-    margin-top: 70px;
     display: block;
     margin: 70px auto;
 }
 .content{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
 }
 .more{
@@ -41,7 +41,8 @@ main{
 }
 .big-unicorn{
     display: none;
-    margin-left:15px ;
+     margin-left: 15px ; 
+    
 }
 
 .main-social{
@@ -56,6 +57,7 @@ main{
     }
     .big-unicorn{
         display: block;
+        margin: auto;
     }
     .content{
         flex-direction: row;
@@ -64,11 +66,33 @@ main{
         font-size: 72px;
     }
     .text{
+        font-size: 24px;
         margin-left: 30px;
-        width: 40%;
+        margin-top: 0;
     }
 }
 
 @media screen and (min-width: 1200px)  {
-    
+    .text{
+        width: 30% ;
+    }
+    .big-unicorn{
+        position: absolute;
+        top: -50px;
+        left: 50%;
+    }
+    .title{
+        margin-left: 56px;
+}
+    .content{
+        position: relative;
+        top: 120px;
+        left: 120px;
+    }
+    .main-social{
+        margin-left: 56px;
+        position: relative;
+        top: -120px;
+
+    }
 }
