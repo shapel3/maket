@@ -6,7 +6,7 @@
     padding: 10px;
 }
 .footer-menu{
-    display: flex;
+    display: none;
 }
 .footer-menu a{
     padding: 10px;

@@ -42,7 +42,7 @@ main{
 .big-unicorn{
     display: none;
      margin-left: 15px ; 
-    
+    max-width: 786px;
 }
 
 .main-social{
@@ -80,6 +80,7 @@ main{
         position: absolute;
         top: -50px;
         left: 50%;
+        width: 50%;
     }
     .title{
         margin-left: 56px;
@@ -88,6 +89,7 @@ main{
         position: relative;
         top: 120px;
         left: 120px;
+        width: 90%;
     }
     .main-social{
         margin-left: 56px;

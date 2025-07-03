@@ -20,7 +20,7 @@
   width: 30%;
 }
 .achive h3 {
-  font-size: 44px;
+  font-size: 24px;
   font-weight: 900;
 }
 .achive p {
@@ -49,6 +49,9 @@
   }
 }
 @media screen and (min-width: 1200px) {
+    .about-article{
+        width: 50%;
+    }
   .about-company{
     width: 80%;
     flex-direction: row;
